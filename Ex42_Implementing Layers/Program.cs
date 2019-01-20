@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace Ex42_Implementing_Layers
 {
-    class Program
+   class Program
     {
         static void Main(string[] args)
         {
+            Program pro = new Ex42_Implementing_Layers.Program();
+            pro.Run();
+        }
+        private void Run()
+        {
+            menu.RunMenu();
         }
     }
 }
