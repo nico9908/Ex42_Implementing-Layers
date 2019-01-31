@@ -46,6 +46,8 @@
     <Compile Include="Controller.cs" />
     <Compile Include="Database_Controller.cs" />
     <Compile Include="Menu.cs" />
+    <Compile Include="Owner.cs" />
+    <Compile Include="Pet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

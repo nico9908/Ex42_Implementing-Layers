@@ -8,6 +8,7 @@ namespace Ex42_Implementing_Layers
 {
    class Program
     {
+        Menu menu = new Menu();
         static void Main(string[] args)
         {
             Program pro = new Ex42_Implementing_Layers.Program();
