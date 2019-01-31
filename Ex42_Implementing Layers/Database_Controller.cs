@@ -13,7 +13,7 @@ namespace Ex42_Implementing_Layers
         private static string connectionString =
         "Server = ealSQL1.eal.local; Database = A_DB27_2018; User Id = A_STUDENT27; Password = A_OPENDB27;";
 
-        public void InsertPet()
+        public void InsertPet(Pet pet)
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
@@ -47,7 +47,7 @@ namespace Ex42_Implementing_Layers
             }
         }
 
-        public void InsertOwner()
+        public void InsertOwner(Owner owner)
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
